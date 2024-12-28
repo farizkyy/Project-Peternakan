@@ -1,16 +1,18 @@
 class Pekerja {
     private String id;
     private String nama;
-    private String jabatan;
-    private JadwalKerja jadwal;
-    
-    public Pekerja(String id, String nama, String jabatan) {
+    private String tugasHarian;
+    private String kontak;
+
+    public Pekerja(String id, String nama, String tugasHarian, String kontak) {
         this.id = id;
         this.nama = nama;
-        this.jabatan = jabatan;
+        this.tugasHarian = tugasHarian;
+        this.kontak = kontak;
     }
-    
-    public void setJadwal(JadwalKerja jadwal) {
-        this.jadwal = jadwal;
-    }
+
+    public String getId() { return id; }
+    public String getNama() { return nama; }
+    public String getTugasHarian() { return tugasHarian; }
+    public String getKontak() { return kontak; }
 }
