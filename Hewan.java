@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class Hewan extends Mahlukhidup implements Pemeriksaan {
     public Hewan(String id, String jenis, int umur, double berat, String statusKesehatan) {
         super(id, jenis, umur, berat, statusKesehatan);
@@ -66,4 +65,3 @@ class Hewan {
     
 
 }
->>>>>>> 005634166884412b2764de6bd1bf7ae29555a2dc
