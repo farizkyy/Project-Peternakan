@@ -7,7 +7,6 @@ public abstract class Mahlukhidup {
     protected String diagnosa;
     protected String tanggalPemeriksaan;
 
-    // Constructor
     public Mahlukhidup(String id, String jenis, int umur, double berat, String statusKesehatan) {
         this.id = id;
         this.jenis = jenis;
@@ -18,7 +17,6 @@ public abstract class Mahlukhidup {
         this.tanggalPemeriksaan = "Belum Diperiksa";
     }
 
-    // Getter dan Setter
     public String getId() {
         return id;
     }

@@ -11,7 +11,6 @@ public class SistemManajemenPeternakan {
     private List<JadwalKerja> jadwalList = new ArrayList<>();
     private List<Kandang> kandangList = new ArrayList<>();
 
-    // Menambahkan data
     public void tambahHewan(Hewan hewan) {
         hewanList.add(hewan);
     }
@@ -44,7 +43,6 @@ public class SistemManajemenPeternakan {
         kandangList.add(kandang);
     }
 
-    // Mendapatkan data
     public List<Hewan> getHewanList() {
         return hewanList;
     }
@@ -103,7 +101,7 @@ public class SistemManajemenPeternakan {
                 return produksi;
             }
         }
-        return null; // Jika tidak ditemukan
+        return null;
     }
 
     public void catatProduksi(String idHewan, String jenisProduk, double jumlah, String tanggal) {
