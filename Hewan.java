@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class Hewan extends Mahlukhidup implements Pemeriksaan {
     public Hewan(String id, String jenis, int umur, double berat, String statusKesehatan) {
         super(id, jenis, umur, berat, statusKesehatan);
@@ -34,3 +35,35 @@ public class Hewan extends Mahlukhidup implements Pemeriksaan {
         return super.getTanggalPemeriksaan();
     }
 }
+=======
+class Hewan {
+    private String nama;
+    private String jenis;
+    private String statKes;
+    private double umur;
+    private double berat;
+
+    public Hewan(String nama, String jenis, String statKes, double umur, double berat) {
+        super(id);
+        this.nama = nama;
+        this.jenis = jenis;
+        this.statKes = statKes;
+        this.umur = umur;
+        this.berat = berat;
+    }
+
+    @Override
+    public displayInfo() {
+        System.out.println("Hewan [Id : " + getId() + ", Nama : " + nama + ", Jenis : " + jenis + ", Status Kesehatan : " + statusKesehatan + ", Umur : " + umur + ", Berat : " + berat + "]");
+
+    }
+
+    @Override
+    public void track() {
+        System.out.println("Status Kesehatan dan Berat badan : " + nama);
+    }
+
+    
+
+}
+>>>>>>> 005634166884412b2764de6bd1bf7ae29555a2dc
